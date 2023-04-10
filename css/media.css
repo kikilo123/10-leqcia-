@@ -1,0 +1,38 @@
+@media (max-width:1202px){
+    .container{
+        width: 97%;
+    }
+     .s1wrap {
+        flex-direction: column;
+        align-items: center;
+    } 
+    .title{
+        margin-bottom: 20px;
+        text-align: center;
+       
+      
+    }
+}
+@media (max-width:768px){
+    .burgerbar{
+        display: block;
+        font-size: 25px;
+        color: blue;
+        cursor: pointer;
+    }
+    .burgerbar:hover{
+        color: red;
+    }
+    nav{
+        display: none;
+    }
+}
+@media (max-width:555px){
+    .card {
+        margin-bottom: 30px;
+    }
+    .cards {
+        justify-content: center;
+    }
+}
+@media (max-width:)

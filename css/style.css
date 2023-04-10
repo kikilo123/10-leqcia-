@@ -11,10 +11,13 @@
 }
 .ulnav{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .ulnav > li {
     margin-left: 47px;
+}
+.burgerbar {
+    display: none;
 }
 li > a{
     color: #303134;
@@ -22,9 +25,11 @@ li > a{
 .title > h4 {
     font-size: 15px;
     color: #8D8D8D;
+    margin-bottom: 13px;
 }
 .title > h2 {
     font-size: 25px;
+    margin-bottom: 25px;
 }   
 .title > p {
     font-size: 15px;
@@ -37,4 +42,13 @@ li > a{
 }
 .card > h3 {
     margin-left: 15px;
+    margin-bottom: 20px;
+}
+.s1wrap {
+    display: flex;
+    justify-content: space-between;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
 }
